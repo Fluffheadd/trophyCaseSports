@@ -1,0 +1,22 @@
+"use strict";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 10
+   Case Problem 1
+
+   Author:stephanie
+   Date:   1/3/2020
+
+   Filename: tc_cart.js
+
+*/
+var orderTotal = 0;
+//variable to store cart table HTML
+var cartHTML = "<table><tr><th>Item</th><th>Price</th><th>Qty</th><th>Total</th></tr>";
+// loop through the items array and add a new table row for each item
+for (var i = 0; i < item.length; i++) {
+  cartHTML += "<tr>";
+  cartHTML += "<td>img src='tc_item.png' alt='item[i]'</td>";
+  cartHTML += "<td>itemDescription[i]</td><td>$itemPrice[i]</td><td>itemQty[i]</td>";
+}
